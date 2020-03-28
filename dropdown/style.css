@@ -1,0 +1,27 @@
+body
+{
+    background: #333333;
+    margin: 0;
+}
+
+.drop
+{
+   justify-content: center; 
+   margin: 35%;
+}
+.dbtn
+{
+    background-color: brown;
+    font-size: 30px;
+    color: cornsilk;
+}
+.content
+{
+    display: none;
+    position: absolute;
+    
+}
+.drop:hover .content
+{
+    display: inline-block;
+}
